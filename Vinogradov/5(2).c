@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n, r=n;
+    int n, r=1;
     printf("Enter the nunber > 0: ");
     scanf("%d", &n);
     if (n<=0)
@@ -12,7 +12,7 @@ int main()
     }
     else
     {
-        for (int i=n/2; i>0; --i)
+        for (int i=n/2; i>0; --i)//гэтая праграма працуе некарэктна, таму што вы не зрабілі r=1 на самым пачатку
         {
             r*=n;
             printf("%d ", n);
