@@ -9,7 +9,7 @@ int main()
     printf("Enter double number!\n:");
     scanf("%lf",&r);
 
-    V=4/3*pi*(r*r*r);
+    V=4/3*pi*(r*r*r);// у вас цэлалікавае дзяленне
     S=4*pi*(r*r);
 
     printf("S=%f\nV=%f\n",S,V);
