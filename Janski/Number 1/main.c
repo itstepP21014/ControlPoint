@@ -10,7 +10,7 @@ int main()
     scanf("%d",&r);
     if(r>0)
     {
-        v=4/3*pi*(r*r*r);
+        v=4/3*pi*(r*r*r);//цалалікавае дзяленне
         s=4*pi*(r*r);
         printf("V = %d\nS = %d",v,s);
     }
